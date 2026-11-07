@@ -34,7 +34,9 @@ Esito: Nessuna correlazione (rigetto del segnale non temporale).
 OSSERVAZIONI E SPUNTI D'INTERESSE SCIENTIFICO
 
 Riproducibilità Cross-Hardware (Resting-State):
-Il dato più interessante è la concordanza tra i valori di OpenNeuro (55.00) e Stanford ds116 (55.61). Nonostante la diversità degli strumenti di acquisizione e dei protocolli di provenienza, l'invariante si mantiene stabile attorno a ~55.6 con una variazione dell'1.12%.
+Il dato più interessante è la concordanza tra i valori di OpenNeuro (55.00) e Stanford ds116 (55.61). Nell’analisi esplorativa sono stati riportati valori numericamente vicini per due dataset EEG resting-state di diversa provenienza: 55,0000 per OpenNeuro e 55,6162 per Stanford, con una differenza relativa dell’1,12%.
+
+Il valore Stanford deriva da un’aggregazione delle deviazioni standard dei segnali, mentre l’origine computazionale del valore OpenNeuro richiede un’ulteriore verifica. La somiglianza osservata costituisce un risultato preliminare e non dimostra, allo stato attuale, l’esistenza di un invariante dinamico universale.
 
 Sensibilità alle Scariche Patologiche:
 Durante la fase ittale (crisi epilettica), la risposta del sistema sale a 93.81, segnando uno stacco marcato (+488.87%) rispetto allo stato basale del dataset (15.93). Questa forte ampiezza differenziale suggerisce un potenziale impiego come indicatore binario o soglia di allerta per eventi parossistici.
@@ -42,10 +44,3 @@ Durante la fase ittale (crisi epilettica), la risposta del sistema sale a 93.81,
 Selettività del Segnale (Rigetto Noise Statico):
 Il test effettuato su risonanze statiche (Tumor MRI) ha restituito un valore trascurabile (0.3194). Questo conferma che l'algoritmo misura effettivamente dinamiche funzionali collegate al tempo e non artefatti legati alla complicanza della matrice dei dati.
 
-NOTE DI REGISTRAZIONE E PATERNITÀ SCIENTIFICA
---------------------------------------------------------------------------------
-- Certificazione di Priorità: Registro temporale qualificato (eIDAS / ArubaPEC QTSA) 
-  apposto in data 05/03/2026.
-- Scopo della marca temporale: Attestare la paternità e la priorità temporale 
-  della prima validazione empirica della costante di stabilità (~55.6) sui 
-  dataset di baseline e patologia.
