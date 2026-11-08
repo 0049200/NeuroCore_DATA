@@ -1,7 +1,7 @@
 
 # ASHI-CORE v2.1.0
 
-### Modulo sperimentale opzionale dell'architettura NeuroCore
+### Modulo sperimentale opzionale dell'architettura NeuroCore (kernel statistico sperimentale autonomo)
 
 **Stato:** prototipo statistico online — validazione industriale e robotica non effettuata  
 **Ultimo audit sperimentale:** 8 novembre 2026  
